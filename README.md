@@ -3,14 +3,9 @@
 
 <!-- badges: start -->
 [![CRAN status](https://cranchecks.info/badges/flavor/release/snowflakeutils)](https://cran.r-project.org/web/checks/check_results_snowflakeutils.html)
-[![R-CMD-check](https://github.com/s7clarke10/snowflakeutils/workflows/R-CMD-check/badge.svg)](https://github.com/s7clarke10/snowflakeutils/actions)
 [![AppVeyor build status](https://ci.appveyor.com/api/projects/status/kayjdh5qtgymhoxr/branch/master?svg=true)](https://ci.appveyor.com/project/s7clarke10/snowflakeutils)
 [![Codecov test coverage](https://codecov.io/github/s7clarke10/snowflakeutils/coverage.svg?branch=master)](https://codecov.io/github/s7clarke10/snowflakeutils?branch=master)
-[![GitLab CI build status](https://gitlab.com/s7clarke10/snowflakeutils/badges/master/pipeline.svg)](https://gitlab.com/s7clarke10/snowflakeutils/-/pipelines)
 [![downloads](https://cranlogs.r-pkg.org/badges/snowflakeutils)](https://www.rdocumentation.org/trends)
-[![CRAN usage](https://jangorecki.gitlab.io/rdeps/snowflakeutils/CRAN_usage.svg?sanitize=true)](https://gitlab.com/jangorecki/rdeps)
-[![BioC usage](https://jangorecki.gitlab.io/rdeps/snowflakeutils/BioC_usage.svg?sanitize=true)](https://gitlab.com/jangorecki/rdeps)
-[![indirect usage](https://jangorecki.gitlab.io/rdeps/snowflakeutils/indirect_usage.svg?sanitize=true)](https://gitlab.com/jangorecki/rdeps)
 <!-- badges: end -->
 
 `snowflakeutils` provides a high-performance version for writing https://www.r-project.org/about.html)'s `data.frame` to Snowflake for ease of use, convenience and programming speed.
