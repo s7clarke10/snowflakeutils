@@ -1,0 +1,19 @@
+Package: snowflakeutils
+Title: Generic Snowflake Utilities for accessing data resources
+Version: 0.0.0.9000
+Authors@R: 
+    person(given = "Steve",
+           family = "Clarke",
+           role = c("aut", "cre", "cph"),
+           email = "stephen_clarke@yahoo.com",
+           comment = c(ORCID = "YOUR-ORCID-ID"))
+Description: Generic Snowflake Utilities for accessing data resources. The write_to_snowflake function allows a user to efficiently upload a dataframe to Snowflake. While this software has been tested, no warranty is provided, use at your risk and/or adapt to your requirements.
+Imports:
+	DBI (>= 1.1.0),
+	janitor (>= 2.0.1),
+	jsonlite (>= 1.7.1)
+License: MIT + file LICENSE
+Encoding: UTF-8
+LazyData: true
+Roxygen: list(markdown = TRUE)
+RoxygenNote: 7.1.1

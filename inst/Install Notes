@@ -1,0 +1,13 @@
+# Install Notes
+
+# To re-generate the roxygen documentation
+#
+# devtools::document()
+#
+# To re-install the package
+#
+# devtools::install()
+#
+# To install to a specific library
+#
+# withr::with_libpaths(new='libPath', devtools::install() )
