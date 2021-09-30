@@ -16,7 +16,7 @@
 #' my_write_time <- write_to_snowflake(dbCon, df_user_table, snowflake_target_table, append=TRUE, print_messages=TRUE)
 #'
 #' @description
-#' This function assume a connection is already established to Snowflake. Supply the connection object, dataframe to write to Snowflake, and the name of the target Snowflake table.
+#' This function assume a connection is already established to Snowflake. Supply the connection object, dataframe to write_to_snowflake, and the name of the target Snowflake table.
 #'
 #' The function will on a temporary basis stage the file you wish to load into Snowflake into temp location indicated by the tempdir() function. Please ensure your temp directory is sized appropriately for large datasets.
 #' This file is then put to an internal Snowflake Stage and then copied into Snowflake. This generally performs a lot fast than direct ODBC write commands via R DBI / ODBC.
